@@ -1,0 +1,6 @@
+{
+  "name": "Michelle Ann's 22nd Birthday",
+  "description": "A soft lavender & gold celebratory 22nd birthday greeting website for Michelle Ann, featuring memory photos, heartfelt wishes wall, interactive candle blowing, and milestone celebrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

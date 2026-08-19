@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Quicksand', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FDFBFF;
+    color: #3D2C50;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom aesthetic frosted glassmorphism & soft shadows */
+.frosted-card {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(140, 101, 181, 0.12), inset 0 1px 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+.frosted-card-lg {
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 16px 48px 0 rgba(140, 101, 181, 0.15), inset 0 1px 2px 0 rgba(255, 255, 255, 0.95);
+}
+
+.frosted-pill {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 16px 0 rgba(140, 101, 181, 0.08), inset 0 1px 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+.frosted-subtle {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 0 4px 20px 0 rgba(140, 101, 181, 0.06);
+}
+
+.glass-lavender {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(180, 151, 214, 0.15);
+}
+
+.glass-lavender-subtle {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-gold-subtle {
+  background: rgba(255, 252, 242, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(232, 200, 117, 0.45);
+}
+
+.glow-lavender {
+  box-shadow: 0 0 25px rgba(180, 151, 214, 0.35), 0 0 50px rgba(230, 217, 242, 0.2);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(232, 200, 117, 0.45);
+}
+
+.text-gradient-purple {
+  background: linear-gradient(135deg, #5B3E7A 0%, #8C65B5 50%, #B497D6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #A87C1D 0%, #D4AF37 50%, #F3D78A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Floating animation */
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1.5deg);
+  }
+}
+
+@keyframes gentle-pulse-glow {
+  0%, 100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@keyframes candle-flicker {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.95;
+  }
+  25% {
+    transform: scale(1.08, 0.92) translateY(-1px) skewX(2deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.95, 1.05) translateY(1px) skewX(-2deg);
+    opacity: 0.9;
+  }
+  75% {
+    transform: scale(1.04, 0.98) translateY(-0.5px) skewX(1.5deg);
+    opacity: 1;
+  }
+}
+
+.animate-float {
+  animation: gentle-float 6s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: gentle-float 8s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: gentle-pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-flicker {
+  animation: candle-flicker 1.2s ease-in-out infinite alternate;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6FD;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5C2EB;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B497D6;
+}
