@@ -8,6 +8,8 @@ interface PhotoLightboxProps {
   onClose: () => void;
 }
 
+const isVideo = (url: string) => /\.(mp4|webm|ogg)(?:[?#].*)?$/i.test(url);
+
 export const PhotoLightbox: React.FC<PhotoLightboxProps> = ({ photo, onClose }) => {
   if (!photo) return null;
 
@@ -34,12 +36,23 @@ export const PhotoLightbox: React.FC<PhotoLightboxProps> = ({ photo, onClose }) 
 
           {/* Photo */}
           <div className="relative max-h-[65vh] w-full bg-black/20 backdrop-blur-md flex items-center justify-center overflow-hidden">
-            <img
-              src={photo.url}
-              alt={photo.caption}
-              referrerPolicy="no-referrer"
-              className="w-full h-full object-contain max-h-[65vh]"
-            />
+            {isVideo(photo.url) ? (
+              <video
+                src={photo.url}
+                aria-label={photo.caption}
+                controls
+                autoPlay
+                playsInline
+                className="w-full h-full object-contain max-h-[65vh]"
+              />
+            ) : (
+              <img
+                src={photo.url}
+                alt={photo.caption}
+                referrerPolicy="no-referrer"
+                className="w-full h-full object-contain max-h-[65vh]"
+              />
+            )}
           </div>
 
           {/* Caption & Details Footer */}

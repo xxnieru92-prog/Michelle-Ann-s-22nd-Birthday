@@ -9,6 +9,8 @@ interface PhotoGalleryProps {
   memories: MemoryPhoto[];
 }
 
+const isVideo = (url: string) => /\.(mp4|webm|ogg)(?:[?#].*)?$/i.test(url);
+
 export const PhotoGallery: React.FC<PhotoGalleryProps> = ({ memories }) => {
   const [selectedPhoto, setSelectedPhoto] = useState<MemoryPhoto | null>(null);
 
@@ -55,13 +57,25 @@ export const PhotoGallery: React.FC<PhotoGalleryProps> = ({ memories }) => {
             >
               {/* Photo Frame Container */}
               <div className="relative aspect-[4/3] sm:aspect-square overflow-hidden bg-[#FAF6FD]">
-                <img
-                  src={photo.url}
-                  alt={photo.caption}
-                  loading="lazy"
-                  referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
+                {isVideo(photo.url) ? (
+                  <video
+                    src={photo.url}
+                    aria-label={photo.caption}
+                    muted
+                    loop
+                    autoPlay
+                    playsInline
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                ) : (
+                  <img
+                    src={photo.url}
+                    alt={photo.caption}
+                    loading="lazy"
+                    referrerPolicy="no-referrer"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                )}
 
                 {/* Lavender-tinted overlay on hover */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#5B3E7A]/75 via-[#B497D6]/35 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-between p-4 backdrop-blur-[2px]">
