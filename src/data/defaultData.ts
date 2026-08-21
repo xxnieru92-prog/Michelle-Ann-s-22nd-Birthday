@@ -23,7 +23,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
   memories: [
     {
       id: 'photo-1',
-      url: '/images/img2.jpeg',
+      url: '/images/vid1.mp4',
       caption: 'Late night cafe talks and endless giggles',
       date: 'Sweet Memories',
       location: 'Favorite Cafe',
