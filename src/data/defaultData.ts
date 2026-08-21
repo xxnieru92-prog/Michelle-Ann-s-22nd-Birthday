@@ -23,7 +23,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
   memories: [
     {
       id: 'photo-1',
-      url: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=800&auto=format&fit=crop',
+      url: '/images/img1.jpeg',
       caption: 'Sun-kissed afternoons & your iconic bright smile',
       date: 'Golden Days',
       location: 'City Walks',
@@ -31,7 +31,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     },
     {
       id: 'photo-2',
-      url: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop',
+      url: '/images/img2.jpeg',
       caption: 'Late night cafe talks and endless giggles',
       date: 'Sweet Memories',
       location: 'Favorite Cafe',
@@ -39,7 +39,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     },
     {
       id: 'photo-3',
-      url: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop',
+      url: '/images/img3.jpeg',
       caption: 'Celebrating life’s little milestones together',
       date: 'Special Days',
       location: 'Weekend Getaway',
@@ -47,7 +47,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     },
     {
       id: 'photo-4',
-      url: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop',
+      url: '/images/img4.jpeg',
       caption: 'Dressed up and glowing in pure confidence',
       date: 'Memories in Bloom',
       location: 'Lavender Garden',
@@ -55,7 +55,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     },
     {
       id: 'photo-5',
-      url: 'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=800&auto=format&fit=crop',
+      url: '/images/img5.jpeg',
       caption: 'Spontaneous road trips & seaside breeze',
       date: 'Adventure Time',
       location: 'By the Ocean',
@@ -63,11 +63,19 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     },
     {
       id: 'photo-6',
-      url: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=800&auto=format&fit=crop',
+      url: '/images/img6.jpeg',
       caption: 'The warmest heart and sweetest soul',
       date: 'Forever Friends',
       location: 'Everywhere',
       tag: 'Pure Joy'
+    },
+    {
+      id: 'photo-7',
+      url: '/images/img7.jpeg',
+      caption: 'Another beautiful memory to treasure',
+      date: 'Golden Moments',
+      location: 'Together',
+      tag: 'Memories'
     }
   ],
   milestones: [
