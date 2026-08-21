@@ -7,7 +7,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
   heroHeadline: 'Happy 22nd Birthday, Michelle Ann! 🎂✨',
   heroSubheadline: 'Celebrating 22 wonderful years of your radiant smile, gentle kindness, and boundless grace.',
   // Elegant aesthetic portrait placeholder with soft lavender/natural tones
-  portraitUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop',
+  portraitUrl: '/images/img1.jpeg',
   letterHeadline: 'A Letter for Your 22nd Chapter',
   letterGreeting: 'Dearest Michelle,',
   letterBody: [
@@ -23,14 +23,6 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
   memories: [
     {
       id: 'photo-1',
-      url: '/images/img1.jpeg',
-      caption: 'Sun-kissed afternoons & your iconic bright smile',
-      date: 'Golden Days',
-      location: 'City Walks',
-      tag: 'Cherished Moment'
-    },
-    {
-      id: 'photo-2',
       url: '/images/img2.jpeg',
       caption: 'Late night cafe talks and endless giggles',
       date: 'Sweet Memories',
@@ -38,7 +30,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
       tag: 'Laughter'
     },
     {
-      id: 'photo-3',
+      id: 'photo-2',
       url: '/images/img3.jpeg',
       caption: 'Celebrating life’s little milestones together',
       date: 'Special Days',
@@ -46,7 +38,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
       tag: 'Celebration'
     },
     {
-      id: 'photo-4',
+      id: 'photo-3',
       url: '/images/img4.jpeg',
       caption: 'Dressed up and glowing in pure confidence',
       date: 'Memories in Bloom',
@@ -54,7 +46,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
       tag: 'Glow'
     },
     {
-      id: 'photo-5',
+      id: 'photo-4',
       url: '/images/img5.jpeg',
       caption: 'Spontaneous road trips & seaside breeze',
       date: 'Adventure Time',
@@ -62,7 +54,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
       tag: 'Wanderlust'
     },
     {
-      id: 'photo-6',
+      id: 'photo-5',
       url: '/images/img6.jpeg',
       caption: 'The warmest heart and sweetest soul',
       date: 'Forever Friends',
@@ -70,7 +62,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
       tag: 'Pure Joy'
     },
     {
-      id: 'photo-7',
+      id: 'photo-6',
       url: '/images/img7.jpeg',
       caption: 'Another beautiful memory to treasure',
       date: 'Golden Moments',
