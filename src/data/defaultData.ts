@@ -1,15 +1,15 @@
 import { BirthdayContent, Wish } from '../types';
 
 export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
-  recipientName: 'Michelle Ann',
+  recipientName: 'Mitch',
   nickname: 'Mimi',
   age: 22,
-  heroHeadline: 'Happy 22nd Birthday, Michelle Ann! 🎂✨',
+  heroHeadline: 'Happy 22nd Birthday, Mitch! 🎂✨',
   heroSubheadline: 'Celebrating 22 wonderful years of your radiant smile, gentle kindness, and boundless grace.',
   // Elegant aesthetic portrait placeholder with soft lavender/natural tones
   portraitUrl: '/images/img1.jpeg',
   letterHeadline: 'A Letter for Your 22nd Chapter',
-  letterGreeting: 'Dearest Michelle,',
+  letterGreeting: 'Dearest Mitch,',
   letterBody: [
     'Twenty-two looks so extraordinarily beautiful on you. As you step into this exciting new year, we want to remind you just how deeply loved, admired, and cherished you are by everyone blessed enough to know you.',
     'Your warmth lights up every room you walk into, your laughter is contagious, and your unwavering heart brings so much comfort and joy to our lives. You tackle every challenge with quiet resilience and grace, constantly inspiring those around you to dream bigger and love deeper.',
