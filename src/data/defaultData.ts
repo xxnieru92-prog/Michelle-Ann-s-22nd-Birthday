@@ -101,42 +101,33 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
 export const INITIAL_WISHES: Wish[] = [
   {
     id: 'wish-1',
-    author: 'Sarah M.',
-    relation: 'Best Friend 🌸',
-    message: 'Happy 22nd birthday to my favorite human! Thank you for always listening to my 2 AM rambles and for being the truest friend. May this year bring you all the love you give so generously! Love you endlessly! 💕',
-    avatarBg: 'from-purple-300 to-indigo-200',
-    timestamp: 'Today, 9:30 AM',
-    likes: 8,
-    emoji: '💖'
-  },
-  {
-    id: 'wish-2',
-    author: 'Mom & Dad',
-    relation: 'Family 🏡',
-    message: 'Happy Birthday our precious Michelle! Watching you blossom into such a strong, caring, and beautiful young woman fills our hearts with pride every single day. Keep reaching for the stars! ✨',
-    avatarBg: 'from-amber-200 to-purple-200',
-    timestamp: 'Today, 8:15 AM',
-    likes: 14,
-    emoji: '🌟'
-  },
-  {
-    id: 'wish-3',
-    author: 'David K.',
-    relation: 'College Bestie 🎓',
-    message: 'Cheers to 22, Michelle! Wishing you ace exams, the yummiest matcha lattes, and zero stress. You are going to conquer this chapter! Have the absolute best birthday bash! 🎉🥂',
+    author: 'Sophia',
+    relation: 'Cousin / Beshie',
+    message: 'Myyy Pichelle ay este Michelle Ann HAPPY HAPPY BIRTHDAY. Grabe 22 na ikaw🥹 Always remember, Ate Eunice is always available in case you need help(wag lang problema sa pera😌). Pero sa ibang problema, andito lang ako para makinig sa rants mo at mag bigay ng payo. Tayo tayo nalang talaga mag dadamayan sa kalagayan naten🫶Keep chasing your dreams, my Michelle, I’m rooting for you. Any challenges that come your way only mean that God is preparing you for His greater plan. Every challenge has a reason, and part of that reason is to make you a stronger person.Happy birthday ulit and more more more birthdays to come. Marami pa tayong iboblow na candle 😉',
     avatarBg: 'from-violet-200 to-pink-200',
     timestamp: 'Today, 10:45 AM',
-    likes: 5,
+    likes: 67,
     emoji: '🥂'
   },
   {
-    id: 'wish-4',
-    author: 'Chloe & The Squad',
-    relation: 'Soul Sisters 👯‍♀️',
-    message: 'Happy 22nd birthday to our favorite girl! We cannot wait to celebrate with you tonight. Get ready for endless cake, bad dancing, and good vibes! Love you so much! 🎂🧁',
-    avatarBg: 'from-fuchsia-200 to-purple-200',
-    timestamp: 'Today, 11:20 AM',
-    likes: 9,
-    emoji: '🎂'
-  }
+    id: 'wish-2',
+    author: 'Sapphire',
+    relation: 'Highschool Bestie 🏡',
+    message: 'Happy 22nd birthday, Mishela! I hope you’re doing well and that this new chapter of your life brings you lots of happiness, growth, and beautiful memories. Despite everything, I’ll always be grateful for the memories and moments we shared. Just know that I’m still rooting for you, even from a distance, and I genuinely wish nothing but good things for you. Ily1!',
+    avatarBg: 'from-amber-200 to-purple-200',
+    timestamp: 'Today, 8:15 AM',
+    likes: 57,
+    emoji: '💖'
+  },
+  {
+    id: 'wish-3',
+    author: 'Mike Francis',
+    relation: 'Kuya',
+    message: 'Hello bunso its a me kuya franz haha anyway happy birthday hehe wish ko para sayo is sana mag ingat ka permi and wag maging naive sa mga choices mo sa buhay and sana maging masaya kana ngayon at sa susunod na page na ng buhay mo yun lang happy birthday to you ulit bunso ily',
+    avatarBg: 'from-purple-300 to-indigo-200',
+    timestamp: 'Today, 9:30 AM',
+    likes: 25,
+    emoji: '🌟'
+  },
+
 ];
