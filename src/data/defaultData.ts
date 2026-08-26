@@ -136,7 +136,7 @@ export const INITIAL_WISHES: Wish[] = [
     message: 'ily',
     avatarBg: 'from-purple-300 to-indigo-200',
     timestamp: 'Today, 9:30 AM',
-    likes: 9999999999,
+    likes: 999,
     emoji: '🌟'
   }
 ];
