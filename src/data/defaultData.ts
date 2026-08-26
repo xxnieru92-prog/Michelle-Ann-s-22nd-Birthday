@@ -130,7 +130,7 @@ export const INITIAL_WISHES: Wish[] = [
     emoji: '🌟'
   },
   {
-    id: 'wish-3',
+    id: 'wish-4',
     author: 'PAX',
     relation: 'basta',
     message: 'ily',
