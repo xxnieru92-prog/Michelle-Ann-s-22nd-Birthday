@@ -17,7 +17,7 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     'Always remember how special you are. Here’s to dreaming fearlessly and shining brightly in your 22nd year!'
   ],
   letterClosing: 'With endless love, admiration & warmest hugs,',
-  signOffSignature: 'Family & Friends 💜',
+  signOffSignature: 'PAX & Friends 💜',
   closingNote: 'May all 22 of your birthday wishes come true today and always.',
   musicTitle: 'Lavender Dream (Acoustic Chime)',
   memories: [
