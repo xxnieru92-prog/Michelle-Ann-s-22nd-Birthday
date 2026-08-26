@@ -129,5 +129,14 @@ export const INITIAL_WISHES: Wish[] = [
     likes: 25,
     emoji: '🌟'
   },
-
+  {
+    id: 'wish-4',
+    author: 'PAX',
+    relation: 'Basta',
+    message: 'ily',
+    avatarBg: 'from-purple-300 to-indigo-200',
+    timestamp: 'Today, 9:30 AM',
+    likes: 25,
+    emoji: '🌟'
+  },
 ];
