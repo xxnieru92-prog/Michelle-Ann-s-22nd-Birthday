@@ -48,8 +48,8 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     {
       id: 'photo-4',
       url: '/images/img5.jpeg',
-      caption: 'Spontaneous road trips & seaside breeze',
-      date: 'Adventure Time',
+      caption: 'Stubborn heart, but never one to give up',
+      date: 'A Little Headstrong',
       location: 'By the Ocean',
       tag: 'Wanderlust'
     },
@@ -64,9 +64,9 @@ export const DEFAULT_BIRTHDAY_CONTENT: BirthdayContent = {
     {
       id: 'photo-6',
       url: '/images/img7.jpeg',
-      caption: 'Another beautiful memory to treasure',
+      caption: 'My beautiful memory to treasure',
       date: 'Golden Moments',
-      location: 'Together',
+      location: 'My Heart',
       tag: 'Memories'
     }
   ],
